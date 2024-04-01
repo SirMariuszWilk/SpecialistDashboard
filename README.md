@@ -1,6 +1,6 @@
 # Specialists dashboard
 
-Showcase of programming skills
+Showcase of some FE programming skills
 
 ## Description
 
