@@ -1,0 +1,47 @@
+const mockData = {
+  maleNames: [
+    "Liam",
+    "Noah",
+    "Oliver",
+    "James",
+    "Elijah",
+    "William",
+    "Henry",
+    "Lucas",
+    "Benjamin",
+    "Theodore",
+  ],
+  femaleNames: [
+    "Olivia",
+    "Emma",
+    "Charlotte",
+    "Amelia",
+    "Sophia",
+    "Isabella",
+    "Ava",
+    "Mia",
+    "Evelyn",
+    "Luna",
+  ],
+  surnames: [
+    "Johnson",
+    "Anderson",
+    "Taylor",
+    "Davis",
+    "Brown",
+    "Wilson",
+    "Garcia",
+  ],
+  professions: [
+    "pharmacist",
+    "nurse",
+    "dentist",
+    "psychiatrist",
+    "paramedic",
+    "audiologist",
+    "dietitian",
+    "therapist",
+  ],
+};
+
+export default mockData;
