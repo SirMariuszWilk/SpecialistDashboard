@@ -12,4 +12,3 @@ Dashboard displaying medical specialists with rating, search and categorization 
 npm install
 npm start
 ```
-# SpecialistDashboard
