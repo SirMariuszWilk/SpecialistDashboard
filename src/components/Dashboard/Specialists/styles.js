@@ -4,7 +4,10 @@ export const SpecialistsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 29px;
-  justify-content: space-between;
+
+  @media (max-width: 1600px) {
+    justify-content: space-between;
+  }
 
   @media (max-width: 895px) {
     justify-content: center;
