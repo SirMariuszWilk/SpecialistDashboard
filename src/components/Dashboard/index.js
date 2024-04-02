@@ -4,6 +4,7 @@ import TopBar from "./TopBar";
 import Specialists from "./Specialists";
 import { DashboardContainer } from "./styles";
 import { addSpecialists } from "./slice";
+import { fetch } from "../../utils/index";
 
 const Dashboard = () => {
   const dispatch = useDispatch();
@@ -15,7 +16,8 @@ const Dashboard = () => {
   const [showMySpecialists, setShowMySpecialists] = useState(false);
 
   useEffect(() => {
-    dispatch(addSpecialists());
+    const data = fetch("/specialists");
+    dispatch(addSpecialists({ data }));
   }, []);
 
   const filteredSpecialists = showMySpecialists

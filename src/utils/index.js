@@ -8,7 +8,7 @@ const getRandomInt = (max) => Math.floor(Math.random() * max);
 /*
   generate random specialists with some of them using 2 available images
 */
-export const getSpecialists = () => {
+export const fetch = () => {
   const specialists = [];
   const { maleNames, femaleNames, surnames, professions } = mockData;
 

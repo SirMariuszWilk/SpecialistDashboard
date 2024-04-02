@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { getNewGlobalRating } from "./utils";
-import { getSpecialists } from "../../utils/index";
 
 export const counterSlice = createSlice({
   name: "dashboard",
@@ -9,7 +8,7 @@ export const counterSlice = createSlice({
   },
   reducers: {
     addSpecialists: (state, action) => {
-      state.specialists = getSpecialists();
+      state.specialists = action.payload.data;
     },
     setUserRating: (state, action) => {
       const { id, userRating } = action.payload;
